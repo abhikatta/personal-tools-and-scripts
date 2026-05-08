@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+ 
+ROOT_DIR="$(cd "$SCRIPT_DIR/.." && pwd)"
+
+exec "$ROOT_DIR/bash/sh-test.sh" "$@"
