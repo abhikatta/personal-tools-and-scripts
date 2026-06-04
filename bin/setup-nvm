@@ -4,7 +4,4 @@ SCRIPT_PATH="$(readlink -f "${BASH_SOURCE[0]}")"
 SCRIPT_DIR="$(dirname "$SCRIPT_PATH")"
 ROOT_DIR="$(dirname "$SCRIPT_DIR")"
 
-chmod +x "$ROOT_DIR"/bash/*
-chmod +x "$ROOT_DIR"/bin/*
-
-sudo ln -sf "$ROOT_DIR"/bin/* /usr/local/bin
+exec "$ROOT_DIR/bash/setup-nvm.sh" "$@"

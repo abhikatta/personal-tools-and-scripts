@@ -1,5 +1,5 @@
 import argparse
-import sys
+import time
 
 parser = argparse.ArgumentParser(description="Create a quick timer from terminal")
 
@@ -36,6 +36,6 @@ if total == 0:
     exit(1)
 
 print(f"total {total}")
-sys.sleep
+time.sleep(total)
 
 print("timer finished")
