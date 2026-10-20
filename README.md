@@ -117,6 +117,7 @@ sudo ln -sf /opt/personal-tools/bin/* /usr/local/bin/
 Ensure executables have execute permissions:
 
 ```bash
+chmod +x /opt/personal-tools/bash/*
 chmod +x /opt/personal-tools/bin/*
 ```
 
