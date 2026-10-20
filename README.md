@@ -105,7 +105,7 @@ or `~/folder_name` if you dont want it sitting in global space
 Clone into `/opt` :
 
 ```bash
-sudo git clone <repo-url> /opt/personal-tools
+sudo git clone https://github.com/abhikatta/personal-tools-and-scripts /opt/personal-tools
 ```
 
 Create global symlinks:
